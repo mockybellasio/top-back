@@ -28,14 +28,14 @@ private	CollegueRepo collegueRepo;
             this.versionRepo.save(new Version("v4"));
         }
 
-  
+        
+        
        if (this.collegueRepo.count() <= 0) {
 
-			this.collegueRepo.save(new Collegue("https://images.pexels.com/photos/265036/pexels-photo-265036.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb","Rod",
-							 "avis", 100));
+			this.collegueRepo.save(new Collegue("avis","Rod", "https://media.istockphoto.com/photos/nothing-can-break-our-team-picture-id805019062" , 
+							  100));
 
-			this.collegueRepo.save(new Collegue("https://images.pexels.com/photos/265036/pexels-photo-265036.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb","Alice",
-					"avis",800));
+			this.collegueRepo.save(new Collegue("avis","Alice", "https://images.pexels.com/photos/265036/pexels-photo-265036.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",800));
 			
 		}
   
