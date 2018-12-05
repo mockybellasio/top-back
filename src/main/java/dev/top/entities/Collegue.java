@@ -16,16 +16,14 @@ public class Collegue {
 	private String pseudo;
 	@Column (name="photo")
 	private String photo;
-	@Column (name="avis")
-	private String avis;
+
 	
 	public Collegue () {
 		
 	}
 	
-	public Collegue(String avis, String pseudo, String photo, int score) {
+	public Collegue(String pseudo, String photo, int score) {
 		super();
-		this.avis = avis;
 		this.pseudo = pseudo;
 		this.photo = photo;
 		this.score = score;
@@ -62,13 +60,5 @@ public class Collegue {
 	}
 
 
-	public String getAvis() {
-		return avis;
-	}
-
-
-	public void setAvis(String avis) {
-		this.avis = avis;
-	}
 	
 }
