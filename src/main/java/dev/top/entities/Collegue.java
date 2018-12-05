@@ -22,7 +22,7 @@ public class Collegue {
 		
 	}
 	
-	public Collegue(String pseudo, String photo, int score) {
+	public Collegue(String pseudo,String photo,int score) {
 		super();
 		this.pseudo = pseudo;
 		this.photo = photo;
