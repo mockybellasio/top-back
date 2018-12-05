@@ -25,10 +25,10 @@ public class Collegue {
 	
 	public Collegue(String avis, String pseudo, String photo, int score) {
 		super();
-		this.score = score;
+		this.avis = avis;
 		this.pseudo = pseudo;
 		this.photo = photo;
-		this.avis = avis;
+		this.score = score;
 	}
 
 
