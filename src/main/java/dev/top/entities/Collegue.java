@@ -24,6 +24,8 @@ public class Collegue {
 	private String email;
 	@Column (name="adresse")
 	private String adresse;
+
+	
 	
 	
 	public Collegue () {
