@@ -33,6 +33,13 @@ public class CollegueControl {
 
 	}
 	
+	@GetMapping(path="/{pseudo}")
+	public Collegue findOne (@PathVariable String pseudo) {
+
+		return this.collegueRepo.findByPseudo(pseudo);
+
+	}
+	
 	
 	@RequestMapping(method = RequestMethod.PATCH, path = "/{pseudo}")
 
